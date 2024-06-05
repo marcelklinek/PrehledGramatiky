@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 \usepackage{geometry}
 \usepackage{cmap}
 \usepackage[T1, IL2]{fontenc}
@@ -7,20 +7,31 @@
 \usepackage[utf8]{inputenc}
 \usepackage{indentfirst}
 \usepackage{csquotes}
-
 \usepackage{makecell}
 \usepackage{booktabs}
+\usepackage{microtype}
+
+\geometry{
+    paper=a4paper, % Change to letterpaper for US letter
+    top=1cm, % Top margin
+    bottom=1cm, % Bottom margin
+    left=0.5cm, % Left margin
+    right=0.5cm, % Right margin
+    %showframe, % Uncomment to show how the type block is set on the page
+}
 
 \begin{document}
-
+ \thispagestyle{empty} 
 \begin{table}[!h]
-\caption{PÁN}
+\caption{Vzory mužského rodu}
 \smallskip
-\begin{tabular*}{\textwidth}{@{} l @{\extracolsep{\fill}} ll @{}}
+\begin{tabular}{llll}
+\begin{tabular}{lll}
 \toprule
-& singulár & plurál \\
+\multicolumn{3}{c}{\textbf{PÁN}} \\
 \midrule\relax
-1. & pán & páni, -ové (občané) \\
+1. & pán & páni, -ové\\
+& & (občané) \\
 \midrule\relax
 2. & pána & pánů  \\
 \midrule\relax
@@ -28,23 +39,22 @@
 \midrule\relax
 4. & pána & pány \\
 \midrule\relax
-5. & pane! (hochu!) & páni! -ové! (občané!) \\
+5. & pane! & páni! -ové! \\
+& (hochu!) & (občané!) \\
 \midrule\relax
-6. & pánu, -ovi & pánech (hoších) \\
+6. & pánu, -ovi & pánech \\
+& & (hoších) \\
 \midrule\relax
 7. & pánem & pány \\
 \bottomrule
-\end{tabular*}
-\end{table}
-
-\begin{table}[!h]
-\caption{MUŽ}
-\smallskip
-\begin{tabular*}{\textwidth}{@{} l @{\extracolsep{\fill}} ll @{}}
+\end{tabular}
+&
+\begin{tabular}{lll}
 \toprule
-& singulár & plurál \\
+\multicolumn{3}{c}{\textbf{MUŽ}} \\
 \midrule\relax
-1. & muž & muži, -ové (obyvatelé) \\
+1. & muž & muži, -ové \\
+& & (obyvatelé) \\
 \midrule\relax
 2. & muže & mužů  \\
 \midrule\relax
@@ -52,23 +62,22 @@
 \midrule\relax
 4. & muže & muže \\
 \midrule\relax
-5. & muži! (otče!) & muži! -ové! (obyvatelé!) \\
+5. & muži! & muži! -ové! \\
+& (otče!) & (obyvatelé!) \\
 \midrule\relax
 6. & muži, -ovi & mužích \\
+& & \\
 \midrule\relax
 7. & mužem & muži \\
 \bottomrule
-\end{tabular*}
-\end{table}
-
-\begin{table}[!h]
-\caption{HRAD}
-\smallskip
-\begin{tabular*}{\textwidth}{@{} l @{\extracolsep{\fill}} ll @{}}
+\end{tabular}
+&
+\begin{tabular}{lll}
 \toprule
-& singulár & plurál \\
+\multicolumn{3}{c}{\textbf{HRAD}} \\
 \midrule\relax
 1. & hrad & hrady \\
+& & \\
 \midrule\relax
 2. & hradu (lesa) & hradů  \\
 \midrule\relax
@@ -76,23 +85,22 @@
 \midrule\relax
 4. & hrad & hrady \\
 \midrule\relax
-5. & hrade! (kalichu!) & hrady! \\
+5. & hrade! & hrady! \\
+& (kalichu!) & \\
 \midrule\relax
-6. & hradě, -u & hradech (zámcích) \\
+6. & hradě, -u & hradech \\
+& & (zámcích) \\
 \midrule\relax
 7. & hradem & hrady \\
 \bottomrule
-\end{tabular*}
-\end{table}
-
-\begin{table}[!h]
-\caption{ČAJ}
-\smallskip
-\begin{tabular*}{\textwidth}{@{} l @{\extracolsep{\fill}} ll @{}}
+\end{tabular}
+&
+\begin{tabular}{lll}
 \toprule
-& singulár & plurál \\
+\multicolumn{3}{c}{\textbf{ČAJ}} \\
 \midrule\relax
 1. & čaj & čaje \\
+& & \\
 \midrule\relax
 2. & čaje & čajů  \\
 \midrule\relax
@@ -101,12 +109,255 @@
 4. & čaj & čaje \\
 \midrule\relax
 5. & čaji! & čaje! \\
+& & \\
 \midrule\relax
 6. & čaji & čajích \\
+& & \\
 \midrule\relax
 7. & čajem & čaji \\
 \bottomrule
-\end{tabular*}
+\end{tabular}
+
+\\
+\\
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{PŘEDSEDA}} \\
+\midrule\relax
+1. & předseda & předsedové \\
+& & (husité) \\
+\midrule\relax
+2. & předsedy & předsedů  \\
+\midrule\relax
+3. & předsedovi & předsedům  \\
+\midrule\relax
+4. & předsedu & předsedy \\
+\midrule\relax
+5. & předsedo! & předsedové! \\
+& & (husité!) \\
+\midrule\relax
+6. & předsedovi & předsedech \\
+& & \\
+\midrule\relax
+7. & předsedou & předsedy \\
+\bottomrule
+\end{tabular}
+&
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{SOUDCE}} \\
+\midrule\relax
+1. & soudce & soudci \\
+& & (soudcové) \\
+\midrule\relax
+2. & soudce & soudců  \\
+\midrule\relax
+3. & soudci, -ovi & soudcům  \\
+\midrule\relax
+4. & soudce & soudci \\
+\midrule\relax
+5. & soudce! & soudci! \\
+& & (soudcové!) \\
+\midrule\relax
+6. & soudci, -ovi & soudcích \\
+& & \\
+\midrule\relax
+7. & soudcem & soudci \\
+\bottomrule
+\end{tabular}
+&
+\begin{minipage}{5cm}
+\textbf{Jak určit vzor?}
+\begin{enumerate}
+\setlength\itemsep{0em}
+\item Určit rod. Použijeme ukazovací zájmeno (ten, ta, to)
+\item Určit vzor podle \textbf{1. pádu Sg}. Křeslo: to křeslo — rod s., koncovka -o — vzor \textit{město}. Liška: ta liška — rod ž., koncovka -a — vzor \textit{žena}.
+\item Občas je třeba \textbf{upřesnit podle 2. pádu.} Vejce: to vejce, rod s., bez vejce jako bez moře — vzor \textit{moře}.
+\end{enumerate}
+\end{minipage}
+
+\end{tabular}
+\end{table}
+
+\begin{table}[!h]
+\caption{Vzory ženského rodu}
+\smallskip
+\begin{tabular}{llll}
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{ŽENA}} \\
+\midrule\relax
+1. & žena & ženy\\
+\midrule\relax
+2. & ženy & žen  \\
+\midrule\relax
+3. & ženě & ženám  \\
+\midrule\relax
+4. & ženu & ženy \\
+\midrule\relax
+5. & ženo! & ženy! \\
+\midrule\relax
+6. & ženě & ženách \\
+\midrule\relax
+7. & ženou & ženami \\
+\bottomrule
+\end{tabular}
+&
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{RŮŽE}} \\
+\midrule\relax
+1. & růže & růže\\
+\midrule\relax
+2. & růže & růží (ulic)  \\
+\midrule\relax
+3. & růži & růžím  \\
+\midrule\relax
+4. & růži & růže \\
+\midrule\relax
+5. & růže! & růže! \\
+\midrule\relax
+6. & růži & růžích \\
+\midrule\relax
+7. & růží & růžemi \\
+\bottomrule
+\end{tabular}
+&
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{PÍSEŇ}} \\
+\midrule\relax
+1. & píseň & písně \\
+\midrule\relax
+2. & písně & písní  \\
+\midrule\relax
+3. & písni & písním  \\
+\midrule\relax
+4. & píseň & písně \\
+\midrule\relax
+5. & písni! & písně! \\
+\midrule\relax
+6. & písni & písních \\
+\midrule\relax
+7. & písní & písněmi \\
+\bottomrule
+\end{tabular}
+&
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{KOST}} \\
+\midrule\relax
+1. & kost & kosti \\
+\midrule\relax
+2. & kosti & kostí  \\
+\midrule\relax
+3. & kosti & kostem  \\
+\midrule\relax
+4. & kost & kosti \\
+\midrule\relax
+5. & kosti! & kosti! \\
+\midrule\relax
+6. & kosti & kostech \\
+\midrule\relax
+7. & kostí & kostmi \\
+\bottomrule
+\end{tabular}
+\end{tabular}
+\end{table}
+
+
+\begin{table}[!h]
+\caption{Vzory středního rodu}
+\smallskip
+\begin{tabular}{llll}
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{MĚSTO}} \\
+\midrule\relax
+1. & město & města \\
+\midrule\relax
+2. & města & měst \\
+\midrule\relax
+3. & městu & městům  \\
+\midrule\relax
+4. & město & města \\
+\midrule\relax
+5. & město! & města! \\
+\midrule\relax
+6. & městě, -u & městech \\
+& (jablku) & (jablkách, \\
+& & jablcích) \\
+\midrule\relax
+7. & městem & městy \\
+\bottomrule
+\end{tabular}
+&
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{MOŘE}} \\
+\midrule\relax
+1. & moře & moře\\
+\midrule\relax
+2. & moře & moří \\
+\midrule\relax
+3. & moři & mořím \\
+\midrule\relax
+4. & moře & moře \\
+\midrule\relax
+5. & moře! & moře! \\
+\midrule\relax
+6. & moři & mořích \\
+& & \\
+& & \\
+\midrule\relax
+7. & mořem & moři \\
+\bottomrule
+\end{tabular}
+&
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{KUŘE}} \\
+\midrule\relax
+1. & kuře & kuřata \\
+\midrule\relax
+2. & kuřete & kuřat \\
+\midrule\relax
+3. & kuřeti & kuřatům \\
+\midrule\relax
+4. & kuře & kuřata \\
+\midrule\relax
+5. & kuře! & kuřata! \\
+\midrule\relax
+6. & kuřeti & kuřatech \\
+& & \\
+& & \\
+\midrule\relax
+7. & kuřetem & kuřaty \\
+\bottomrule
+\end{tabular}
+&
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{\textbf{STAVENÍ}} \\
+\midrule\relax
+1. & stavení & stavení \\
+\midrule\relax
+2. & stavení & stavení  \\
+\midrule\relax
+3. & stavení & stavením  \\
+\midrule\relax
+4. & stavení & stavení \\
+\midrule\relax
+5. & stavení! & stavení! \\
+\midrule\relax
+6. & stavení & staveních \\
+& & \\
+& & \\
+\midrule\relax
+7. & stavením & staveními \\
+\bottomrule
+\end{tabular}
+\end{tabular}
 \end{table}
 
 \end{document}
